@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Labs20221-Gr04</string>
+    <string name="txt_español_infoPersona">Información personal</string>
+    <string name="txt_español_name">Nombre</string>
+    <string name="txt_español_last_name">Apellido</string>
+    <string name="txt_español_sexo">Sexo</string>
+    <string name="txt_español_male">Hombre</string>
+    <string name="txt_español_female">Mujer</string>
+    <string name="txt_español_fecha_nacimiento">Fecha de nacimiento</string>
 </resources>
