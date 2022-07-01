@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Labs20221-Gr04</string>
+    <string name="txt_español_infoPersona">Personal information</string>
+    <string name="txt_español_name">Name</string>
+    <string name="txt_español_last_name">Last name</string>
+    <string name="txt_español_sexo">Sex:</string>
+    <string name="txt_español_male">Man</string>
+    <string name="txt_español_female">Woman</string>
+    <string name="txt_español_data_of_birth">Date of Birth</string>
+        <string name="txt_español_school_grade">School grade</string>
+    <string name="txt_español_required">required*</string>
+    <string name="txt_español_btn_change_date">Change</string>
+    <string name="txt_español_btn_next">Next</string>
+
+    <string-array name="array_español_school_grade">
+        <item>Primary</item>
+        <item>Secondary</item>
+        <item>University</item>
+        <item>Other</item>
+    </string-array>
+</resources>
