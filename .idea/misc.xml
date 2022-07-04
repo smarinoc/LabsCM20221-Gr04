@@ -3,15 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="Lab1-UI/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2015" />
-        <entry key="Lab1-UI/src/main/res/drawable/ic_launcher_background.xml" value="0.2015" />
+        <entry key="..\:/Users/usuario/Desktop/lab-movil/LabsCM20221-Gr04/Lab1-UI/src/main/res/drawable-anydpi/ic_calendar.xml" value="0.2985" />
+        <entry key="..\:/Users/usuario/Desktop/lab-movil/LabsCM20221-Gr04/Lab1-UI/src/main/res/layout-land/personal_data_activity.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/usuario/Desktop/lab-movil/LabsCM20221-Gr04/Lab1-UI/src/main/res/layout/activity_contact_data.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Desktop/lab-movil/LabsCM20221-Gr04/Lab1-UI/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Desktop/lab-movil/LabsCM20221-Gr04/Lab1-UI/src/main/res/layout/list_item.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Desktop/lab-movil/LabsCM20221-Gr04/Lab1-UI/src/main/res/layout/personal_data_activity.xml" value="0.33" />
         <entry key="Lab1-UI/src/main/res/drawable/ic_person.xml" value="0.371875" />
-        <entry key="Lab1-UI/src/main/res/layout-land/activity_contact_data.xml" value="0.33" />
         <entry key="Lab1-UI/src/main/res/layout-land/personal_data_activity.xml" value="0.24559082892416226" />
-        <entry key="Lab1-UI/src/main/res/layout/activity_contact_data.xml" value="0.33" />
         <entry key="Lab1-UI/src/main/res/layout/activity_main.xml" value="0.19427083333333334" />
         <entry key="Lab1-UI/src/main/res/layout/list_item.xml" value="0.35572916666666665" />
-        <entry key="Lab1-UI/src/main/res/layout/personal_data_activity.xml" value="0.25" />
+        <entry key="Lab1-UI/src/main/res/layout/personal_data_activity.xml" value="0.33" />
       </map>
     </option>
   </component>

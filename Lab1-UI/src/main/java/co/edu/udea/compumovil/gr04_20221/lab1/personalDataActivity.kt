@@ -1,5 +1,6 @@
 package co.edu.udea.compumovil.gr04_20221.lab1
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.*
@@ -58,6 +59,11 @@ class personalDataActivity : AppCompatActivity() {
                         if(!auto.text.isNullOrBlank()){
                             Log.i("Grado de escolaridad", auto.text.toString())
                         }
+                        val intent = Intent(this, ContactDataActivity::class.java)
+                        intent.putExtra("name", inputName.text.toString())
+                        intent.putExtra("lastName", inputLastName.text.toString())
+                        startActivity(intent)
+
                     }
                 }
             }
