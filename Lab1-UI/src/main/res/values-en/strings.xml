@@ -1,21 +1,107 @@
 <resources>
     <string name="app_name">Labs20221-Gr04</string>
     <string name="txt_español_infoPersona">Personal information</string>
+    <string name="txt_español_infoContact">Contact information</string>
     <string name="txt_español_name">Name</string>
     <string name="txt_español_last_name">Last name</string>
     <string name="txt_español_sexo">Sex:</string>
     <string name="txt_español_male">Man</string>
     <string name="txt_español_female">Woman</string>
     <string name="txt_español_data_of_birth">Date of Birth</string>
-        <string name="txt_español_school_grade">School grade</string>
+    <string name="txt_español_school_grade">School grade</string>
     <string name="txt_español_required">required*</string>
     <string name="txt_español_btn_change_date">Change</string>
     <string name="txt_español_btn_next">Next</string>
+    <string name="txt_español_telephone">Telephone</string>
+    <string name="txt_español_address">Address</string>
+    <string name="txt_español_email">Email</string>
+    <string name="txt_español_country">Country</string>
+    <string name="txt_español_city">City</string>
 
     <string-array name="array_español_school_grade">
         <item>Primary</item>
         <item>Secondary</item>
         <item>University</item>
         <item>Other</item>
+    </string-array>
+    <string-array name="array_español_countries">
+        <item>Argentina</item>
+        <item>bolivia</item>
+        <item>Brazil</item>
+        <item>Chili</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Ecuador</item>
+        <item>The Savior</item>
+        <item>Guatemala</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Mexico</item>
+        <item>Nicaragua</item>
+        <item>Panama</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Dominican Republic</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+    </string-array>
+    <string-array name="array_español_cities">
+        <item>Apartadó</item>
+        <item>Armenia</item>
+        <item>Barrancabermeja</item>
+        <item>Barranquilla</item>
+        <item>Bogotá D.C</item>
+        <item>Bucaramanga</item>
+        <item>Buenaventura</item>
+        <item>Buga</item>
+        <item>Cali</item>
+        <item>Cartagena</item>
+        <item>Cartago</item>
+        <item>Caucasia</item>
+        <item>Ciénaga</item>
+        <item>Ciudad de Arauca</item>
+        <item>Ciudad de San Andrés</item>
+        <item>Cúcuta</item>
+        <item>Duitama</item>
+        <item>Florencia</item>
+        <item>Fusagasugá</item>
+        <item>Girardot</item>
+        <item>Honda</item>
+        <item>Ibagué</item>
+        <item>Inírida</item>
+        <item>Ipiales</item>
+        <item>Leticia</item>
+        <item>Maicao</item>
+        <item>Málaga</item>
+        <item>Manizales</item>
+        <item>Medellín</item>
+        <item>Mitú</item>
+        <item>Mocoa</item>
+        <item>Montería</item>
+        <item>Neiva</item>
+        <item>Ocaña</item>
+        <item>Palmira</item>
+        <item>Pamplona</item>
+        <item>Pasto</item>
+        <item>Pereira</item>
+        <item>Popayán</item>
+        <item>Puerto Asís</item>
+        <item>Puerto Carreño</item>
+        <item>Quibdó</item>
+        <item>Riohacha</item>
+        <item>Rionegro</item>
+        <item>San Gil</item>
+        <item>San José</item>
+        <item>Santa Marta</item>
+        <item>Sincelejo</item>
+        <item>Sogamoso</item>
+        <item>Tuluá</item>
+        <item>Tumaco</item>
+        <item>Tunja</item>
+        <item>Turbo</item>
+        <item>Valledupar</item>
+        <item>Villavicencio</item>
+        <item>Yopal</item>
     </string-array>
 </resources>

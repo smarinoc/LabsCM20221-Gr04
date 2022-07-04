@@ -13,7 +13,6 @@
             <option value="$PROJECT_DIR$/Lab1-UI" />
           </set>
         </option>
-        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>
