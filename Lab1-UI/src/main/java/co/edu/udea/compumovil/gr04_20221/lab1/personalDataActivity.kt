@@ -24,6 +24,7 @@ class personalDataActivity : AppCompatActivity() {
         val inputName = findViewById<TextInputEditText>(R.id.inputName)
         val inputLastName = findViewById<TextInputEditText>(R.id.inputlastName)
         val radioGroup = findViewById<RadioGroup>(R.id.radioGroup)
+        val fieldError = resources.getString(R.string.fieldError)
 
         val datePicker =
             MaterialDatePicker.Builder.datePicker()
@@ -39,13 +40,13 @@ class personalDataActivity : AppCompatActivity() {
         btnNext.setOnClickListener {
 
             if (inputName.text.isNullOrBlank()){
-                inputName.setError("")
+                inputName.setError(fieldError)
             } else {
                 if (inputLastName.text.isNullOrBlank()){
-                    inputLastName.setError("")
+                    inputLastName.setError(fieldError)
                 } else {
                     if(textfieldDate.text.isNullOrBlank()){
-                        textfieldDate.setError("")
+                        textfieldDate.setError(fieldError)
                     }
                     else{
                         val intent = Intent(this, ContactDataActivity::class.java)

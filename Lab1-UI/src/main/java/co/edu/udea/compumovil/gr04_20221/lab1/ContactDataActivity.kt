@@ -22,6 +22,7 @@ class ContactDataActivity : AppCompatActivity() {
         val inputPhone = findViewById<TextInputEditText>(R.id.inputTel)
         val inputAddress = findViewById<TextInputEditText>(R.id.InputAddr)
         val inputEmail = findViewById<TextInputEditText>(R.id.InputEmail)
+        val fieldError = resources.getString(R.string.fieldError)
 
         val nameId = intent?.extras?.getString("name").toString()
         val lastNameId = intent?.extras?.getString("lastName").toString()
@@ -31,25 +32,29 @@ class ContactDataActivity : AppCompatActivity() {
 
         btnDone.setOnClickListener{
             if(inputPhone.text.isNullOrBlank()){
-                inputPhone.setError("@string/phoneError")
+                inputPhone.setError(fieldError)
             } else {
                 if (inputEmail.text.isNullOrBlank()){
-                    inputEmail.setError("")
+                    inputEmail.setError(fieldError)
                 } else {
-                    Log.i("* Información personal *", "")
-                    Log.i("Nombres", nameId)
-                    Log.i("Apellidos", lastNameId)
-                    Log.i("Sexo", sexId)
-                    Log.i("Fecha de cumpleaños", dateId)
-                    Log.i("Grado de escolaridad", gradeId)
-                    Log.i("* Información de contacto *", "")
-                    Log.i("Telefono", inputPhone.text.toString())
-                    if (!inputAddress.text.isNullOrBlank()){
-                        Log.i("Dirección", inputAddress.text.toString())
-                    }
-                    Log.i("Email", inputEmail.text.toString())
-                    if(!autoCountry.text.isNullOrBlank()){
-                        Log.i("Pais", autoCountry.text.toString())
+                    if (autoCountry.text.isNullOrBlank()){
+                        autoCountry.setError(fieldError)
+                    } else {
+                        Log.i("* Información personal *", "")
+                        Log.i("Nombres", nameId)
+                        Log.i("Apellidos", lastNameId)
+                        Log.i("Sexo", sexId)
+                        Log.i("Fecha de cumpleaños", dateId)
+                        Log.i("Grado de escolaridad", gradeId)
+                        Log.i("* Información de contacto *", "")
+                        Log.i("Telefono", inputPhone.text.toString())
+                        if (!inputAddress.text.isNullOrBlank()) {
+                            Log.i("Dirección", inputAddress.text.toString())
+                        }
+                        Log.i("Email", inputEmail.text.toString())
+                        if (!autoCountry.text.isNullOrBlank()) {
+                            Log.i("Pais", autoCountry.text.toString())
+                        }
                     }
                 }
             }

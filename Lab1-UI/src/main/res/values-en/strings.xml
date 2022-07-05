@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Labs20221-Gr04</string>
+    <string name="fieldError">required field</string>
     <string name="txt_español_infoPersona">Personal information</string>
     <string name="txt_español_infoContact">Contact information</string>
     <string name="txt_español_name">Name</string>
@@ -17,7 +18,6 @@
     <string name="txt_español_email">Email</string>
     <string name="txt_español_country">Country</string>
     <string name="txt_español_city">City</string>
-    <string name="phoneError">Ingrese un telefono valido</string>
 
     <string-array name="array_español_school_grade">
         <item>Primary</item>

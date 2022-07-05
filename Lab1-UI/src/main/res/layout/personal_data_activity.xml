@@ -54,7 +54,7 @@
                 android:id="@+id/inputName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text|textCapSentences"
+                android:inputType="text|textCapSentences|textNoSuggestions"
                 android:imeOptions="actionNext"/>
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -79,7 +79,7 @@
                 android:id="@+id/inputlastName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text|textCapSentences"
+                android:inputType="text|textCapSentences|textNoSuggestions"
                 android:imeOptions="actionNext"/>
 
         </com.google.android.material.textfield.TextInputLayout>

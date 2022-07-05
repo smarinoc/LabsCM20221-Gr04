@@ -4,8 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/usuario/Desktop/lab-movil/LabsCM20221-Gr04/Lab1-UI/src/main/res/drawable-anydpi/ic_calendar.xml" value="0.2985" />
+        <entry key="..\:/Users/usuario/Desktop/lab-movil/LabsCM20221-Gr04/Lab1-UI/src/main/res/layout-land/activity_contact_data.xml" value="0.5" />
         <entry key="..\:/Users/usuario/Desktop/lab-movil/LabsCM20221-Gr04/Lab1-UI/src/main/res/layout-land/personal_data_activity.xml" value="0.31040564373897706" />
-        <entry key="..\:/Users/usuario/Desktop/lab-movil/LabsCM20221-Gr04/Lab1-UI/src/main/res/layout/activity_contact_data.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Desktop/lab-movil/LabsCM20221-Gr04/Lab1-UI/src/main/res/layout/activity_contact_data.xml" value="0.33" />
         <entry key="..\:/Users/usuario/Desktop/lab-movil/LabsCM20221-Gr04/Lab1-UI/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/usuario/Desktop/lab-movil/LabsCM20221-Gr04/Lab1-UI/src/main/res/layout/list_item.xml" value="0.1" />
         <entry key="..\:/Users/usuario/Desktop/lab-movil/LabsCM20221-Gr04/Lab1-UI/src/main/res/layout/personal_data_activity.xml" value="0.33" />
