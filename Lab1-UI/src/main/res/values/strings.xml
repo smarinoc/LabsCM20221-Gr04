@@ -17,6 +17,7 @@
     <string name="txt_español_email">Correo</string>
     <string name="txt_español_country">Pais</string>
     <string name="txt_español_city">Ciudad</string>
+    <string name="phoneError">Ingrese un telefono valido</string>
 
     <string-array name="array_español_school_grade">
         <item>Primaria</item>
@@ -24,7 +25,7 @@
         <item>Universitaria</item>
         <item>Otro</item>
     </string-array>
-    <string-array name="array_español_country">
+    <string-array name="array_español_countries">
         <item>Argentina</item>
         <item>Bolivia</item>
         <item>Brasil</item>
@@ -46,7 +47,7 @@
         <item>Uruguay</item>
         <item>Venezuela</item>
     </string-array>
-    <string-array name="array_español_city">
+    <string-array name="array_español_cities">
         <item>Apartadó</item>
         <item>Armenia</item>
         <item>Barrancabermeja</item>

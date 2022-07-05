@@ -48,18 +48,21 @@ class personalDataActivity : AppCompatActivity() {
                         textfieldDate.setError("")
                     }
                     else{
-                        Log.i("Información personal", "")
-                        Log.i("Nombres", inputName.text.toString())
-                        Log.i("Apellidos", inputLastName.text.toString())
+                        val intent = Intent(this, ContactDataActivity::class.java)
                         val id = findViewById<RadioButton>(radioGroup.checkedRadioButtonId)
                         if(id!=null){
-                            Log.i("Sexo", id.text.toString())
+                            if(id.text.toString() == "Man" || id.text.toString() == "Hombre"){
+                                intent.putExtra("sex", "Masculino")
+                            } else{
+                                intent.putExtra("sex", "Femenino")
+                            }
+
                         }
-                        Log.i("Fecha de cumpleaños", textfieldDate.text.toString())
+                        intent.putExtra("bDate", textfieldDate.text.toString())
                         if(!auto.text.isNullOrBlank()){
-                            Log.i("Grado de escolaridad", auto.text.toString())
+                            intent.putExtra("grade", auto.text.toString())
                         }
-                        val intent = Intent(this, ContactDataActivity::class.java)
+
                         intent.putExtra("name", inputName.text.toString())
                         intent.putExtra("lastName", inputLastName.text.toString())
                         startActivity(intent)

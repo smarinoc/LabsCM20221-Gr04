@@ -17,6 +17,7 @@
     <string name="txt_español_email">Email</string>
     <string name="txt_español_country">Country</string>
     <string name="txt_español_city">City</string>
+    <string name="phoneError">Ingrese un telefono valido</string>
 
     <string-array name="array_español_school_grade">
         <item>Primary</item>
