@@ -14,6 +14,10 @@ class ContactDataActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_contact_data)
+        val cities = resources.getStringArray(R.array.array_español_cities)
+        val cityAdapter = ArrayAdapter(this, R.layout.list_item, cities)
+        val autoCity = findViewById<AutoCompleteTextView>(R.id.autoCompleteCity)
+        autoCity.setAdapter(cityAdapter)
         val countries = resources.getStringArray(R.array.array_español_countries)
         val countryAdapter = ArrayAdapter(this, R.layout.list_item, countries)
         val autoCountry = findViewById<AutoCompleteTextView>(R.id.autoCompleteCountry)
@@ -30,14 +34,14 @@ class ContactDataActivity : AppCompatActivity() {
         val dateId = intent?.extras?.getString("bDate").toString()
         val gradeId = intent?.extras?.getString("grade").toString()
 
-        btnDone.setOnClickListener{
-            if(inputPhone.text.isNullOrBlank()){
+        btnDone.setOnClickListener {
+            if (inputPhone.text.isNullOrBlank()) {
                 inputPhone.setError(fieldError)
             } else {
-                if (inputEmail.text.isNullOrBlank()){
+                if (inputEmail.text.isNullOrBlank()) {
                     inputEmail.setError(fieldError)
                 } else {
-                    if (autoCountry.text.isNullOrBlank()){
+                    if (autoCountry.text.isNullOrBlank()) {
                         autoCountry.setError(fieldError)
                     } else {
                         Log.i("* Información personal *", "")
@@ -55,6 +59,7 @@ class ContactDataActivity : AppCompatActivity() {
                         if (!autoCountry.text.isNullOrBlank()) {
                             Log.i("Pais", autoCountry.text.toString())
                         }
+                        Log.i("Ciudad", autoCity.text.toString())
                     }
                 }
             }
